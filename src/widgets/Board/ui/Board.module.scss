@@ -1,0 +1,7 @@
+.Board {
+  width: calc(var(--cell-size) * 8);
+  height: calc(var(--cell-size) * 8);
+  display: flex;
+  flex-wrap: wrap;
+  border: red 10px;
+}
