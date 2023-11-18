@@ -8,6 +8,7 @@ export default (env: BuildEnv) => {
     entry: path.resolve(__dirname, 'src', 'index.tsx'),
     dist: path.resolve(__dirname, 'dist'),
     html: path.resolve(__dirname, 'public', 'index.html'),
+    public: path.resolve(__dirname, 'public'),
     src: path.resolve(__dirname, 'src'),
   };
 
